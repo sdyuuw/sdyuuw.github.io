@@ -1,0 +1,68 @@
+body { 
+    font-family: Arial, sans-serif; 
+    color: #f2c215;
+    /* Set the background image with the path to where the image is hosted */
+    background-image: url('Assets/Background_image.webp');
+    /* Set a background color with transparency using RGBA; here it's set to fully opaque */
+    background-color: rgba(255, 255, 255, 1);
+    /* Other styling for the body */
+    margin: 0;
+    padding: 0;
+    background-size: cover; /* This will ensure the background covers the entire page */
+    background-attachment: fixed; /* This keeps the background fixed during scroll */
+}
+.transparent-background {
+    opacity: 0.1; /* Set the opacity to the desired level, 1 is fully opaque, 0 is fully transparent */
+}
+.header { 
+    background-color: #444; 
+    opacity: 0.9;
+    padding: 20px; 
+    text-align: center; 
+}
+
+.footer { 
+    background-color: #444; 
+    padding: 10px; 
+    text-align: center; 
+}
+.content { 
+    background-color: #444;
+    opacity: 0.9;
+    padding: 20px;
+    max-width: auto;
+    text-align:center;
+    margin: 0 auto;
+}
+.chaotic-button {
+    background-color: #555; 
+    border: none; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: block; 
+    font-size: auto;
+    width: 50%; 
+    margin: 10px auto; 
+    cursor: pointer; 
+    border-radius: 12px;
+    background-image: linear-gradient(45deg, #704b00, #f2c215);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button-container {
+    text-align: center; /* Centers the button within the container */
+    margin: 20px 0; /* Adds some space above and below the button */
+}
+video {
+    display: block;
+    margin: 0 auto;
+}
+.responsive-video, .responsive-image {
+    display: block;
+    max-width: 100%; /* Ensures scaling based on the parent container */
+    height: auto; /* Maintains aspect ratio */
+    margin: 0 auto; /* Centers the video and image */
+}
+
+
